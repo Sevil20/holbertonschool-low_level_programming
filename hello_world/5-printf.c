@@ -1,6 +1,6 @@
 /*
- * File: 4-puts.c
- * Auth: Brennan D Baraban <375@holbertonschool.com>
+ * File: 5-printf.c
+ * Auth: Sevil Mirzayeva <9079@holbertonschool.com>
  */
 
 #include <stdio.h>
