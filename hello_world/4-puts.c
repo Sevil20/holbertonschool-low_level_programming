@@ -1,4 +1,3 @@
-
 /*
  * File: 4-puts.c
  * Auth: Sevil Mirzayeva <9079@holbertonschool.com>
