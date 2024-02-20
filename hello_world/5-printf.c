@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Auth: Sevil Mirzayeva <9079@holbertonschool.com>
+ * Auth: Sevil Mirzayeva
  */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, \n");
+   printf("with proper grammar, but the outcome is a piece of art, \n");
 
 	return (0);
 }
