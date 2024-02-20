@@ -1,4 +1,9 @@
 
+/*
+ * File: 4-puts.c
+ * Auth: Brennan D Baraban <9079@holbertonschool.com>
+ */
+
 #include <stdio.h>
 int main(void)
 {
