@@ -1,10 +1,4 @@
-/*
- * File: 101-quote.c
- * Auth: Sevil Mirzayeva
- */
-
 #include <unistd.h>
-
 /**
  * main - Entry point for function
  *
