@@ -5,7 +5,6 @@
 
 #include <unistd.h>
 
-
 /**
  * main - Entry point for function
  *
@@ -13,7 +12,7 @@
  */
 int main(void)
 {
-        char *word = "and that piece of art is useful\" - Dora         Korpar, 2015-10-19\n";
+        char *word = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 
 	write(2, word, 59);
