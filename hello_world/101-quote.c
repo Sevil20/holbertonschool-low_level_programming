@@ -1,13 +1,15 @@
 /*
- * File: 6-size.c
+ * File: 101-quote.c
  * Auth: Sevil Mirzayeva
  */
 
 #include <unistd.h>
+
+
 /**
- * main - Prints the and that piece of art is useful" - Dora Ko *                                           rpar, 2015-10-19
+ * main - Entry point for function
  *
- * Return: Always 1.
+ * Return: 1 always (success)
  */
 int main(void)
 {
