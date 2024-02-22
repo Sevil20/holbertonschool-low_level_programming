@@ -3,8 +3,7 @@
  * Auth: Sevil Mirzayeva
  */
 
-#include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Prints the and that piece of art is useful" - Dora Ko *                                           rpar, 2015-10-19
  *
@@ -12,7 +11,9 @@
  */
 int main(void)
 {
-	putchar("and that piece of art is useful"" - Dora Korpar, 2015-10-19\n");
+        char *word = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
+
+	write(2, word, 59)
 	return (1);
 }
