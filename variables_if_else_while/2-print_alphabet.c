@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-      char startLetter = 'a';
-      char endOfLetter = 'z'; 
-
-      if(startLetter <= endOfLetter)
+      char sl;
+      
+      for(sl = 'a'; sl <= 'z'; sl++)
       {
-	putchar("%c", startLetter);
-	putchar(startLetter + 1, endOfLetter);
+	putchar("%c",sl);
       }
+      
+      putchar("\n");
+    
       return(0);
       
 }  
