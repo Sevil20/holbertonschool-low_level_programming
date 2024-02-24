@@ -16,14 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
         
 	char word[] = "Last digit of";
-        if(n>5){
-	   printf("%s and is greater than 5\n", word);
+        if((n%10)>5){
+	   printf("%s %d is %d and is greater than 5\n", word, 
+           n, n%10);
 	}		
-	else if(n<6 && n!==0){
-           printf("%s and is less than 6 and not 0\n", word);
+	else if((n%10)<6 && (n%10)!==0){
+           printf("%s %d is %d and is less than 6 and not 0\n",            word,n n%10);
 	}	
 	else{
-	   printf("%s and is 0\n", word);
+	   printf("%s %d is %d and is 0\n", word,n,n%10);
 	}	
 
 	return (0);
