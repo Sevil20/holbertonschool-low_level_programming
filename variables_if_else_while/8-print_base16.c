@@ -8,10 +8,17 @@
 int main(void)
 {
     char a;
+    int i = 0;
 
-    for (a = '0'; a <= 'f'; a++)
+    while (i < 10)
     {
-           putchar(a);
+        putchar(i + '0');
+        i++;
+    }
+
+    for (a = 'a'; a <= 'f'; a++)
+    {
+        putchar(a);
     }
 
     putchar('\n');
