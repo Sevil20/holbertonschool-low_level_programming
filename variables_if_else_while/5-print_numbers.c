@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints all letters of alphabet in lowercase if conditions are met
+ * main - Entry point
  *
+ * Description: Prints all single digit numbers of base 10 starting from 0,
+ *              followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a;
+    int i;
 
-	for (a = 0; a <= 10; a++)
-	{
-	       printf("%d", a);
-	}
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d\n", i);
+    }
 
-	putchar('\n');
-
-	return (0);
+    return (0);
 }
