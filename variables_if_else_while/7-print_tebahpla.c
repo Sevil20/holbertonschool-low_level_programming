@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - Prints all letters of alphabet in lowercase 
-*
-* Return: Always (Success)
-*/
+ * main - Prints all letters of the alphabet in lowercase
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-      char sl;
-      
-      for(sl = 'z';sl >= 'a';sl--)
-      {
-	   putchar(sl);
-      }
-      
-      putchar('\n');
-    
-      return(0);
-      
-}  
+	char letter;
+
+	for (letter = 'z'; letter >= 'a'; letter--)
+	{
+		putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
