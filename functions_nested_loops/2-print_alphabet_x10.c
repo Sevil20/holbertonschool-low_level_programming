@@ -14,10 +14,9 @@ int main(void)
 	{
 		for (sl = 'a'; sl <= 'z'; sl++)
 		{
-			putchar(sl);
+			_putchar(sl);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 
-	return (0);
 }
