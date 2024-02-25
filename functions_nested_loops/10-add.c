@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * add - Adds two integers
+ * @i: The first integer
+ * @j: The second integer
  *
- * Return: Always 0.
+ * Return: The result of the addition
  */
-int add(int i , int j)
+int add(int i, int j)
 {
-        return(i + j);
+        return (i + j);
 }
