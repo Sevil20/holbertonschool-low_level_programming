@@ -3,8 +3,7 @@
 /**
  * print_alphabet_x10 - Prints all letters of the alphabet in lowercase 10 times
  *
- * Description: This function prints all lowercase letters of the alphabet
- *              10 times, each time followed by a new line.
+ * 10 times, each time followed by a new line.
  */
 void print_alphabet_x10(void)
 {
