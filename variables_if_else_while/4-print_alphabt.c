@@ -11,7 +11,7 @@ int main(void)
 
 	for (sl = 'a'; sl <= 'z'; sl++)
 	{
-		if (sl == 'e'  sl == 'q')
+		if (sl == 'e' && sl == 'q')
 		{
 			break;
 		}
