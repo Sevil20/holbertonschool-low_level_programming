@@ -9,9 +9,13 @@ int main(void)
 {
 	char sl;
 
-	if (sl == 'e' && sl == 'q')
+	for (sl = 'a'; sl <= 'z'; sl++)
 	{
-		for (sl = 'a'; sl <= 'z'; sl++)
+		if (sl == 'e'  sl == 'q')
+		{
+			break;
+		}
+		else
 		{
 			putchar(sl);
 		}
