@@ -11,11 +11,7 @@ int main(void)
 
 	for (sl = 'a'; sl <= 'z'; sl++)
 	{
-		if (sl == 'e' || sl == 'q')
-		{
-			break;
-		}
-		else
+		if (sl != 'e' && sl != 'q')
 		{
 			putchar(sl);
 		}
