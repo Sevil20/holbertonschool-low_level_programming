@@ -7,5 +7,6 @@
  *       used in the 0x02-functions_nested_loops directory.
  */
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif
