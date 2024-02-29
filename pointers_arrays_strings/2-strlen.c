@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * 2-strlen.c - Takes a pointer to an int as parameter and
