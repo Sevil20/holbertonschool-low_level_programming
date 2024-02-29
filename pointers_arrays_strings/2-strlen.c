@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * 2-strlen.c - Takes a pointer to an int as parameter and
@@ -11,8 +10,8 @@
  */
 int _strlen(char *s)
 {
-   int len;
-   len = strlen(*s);
-   printf("%d\n", len);
-   return (0);
+   int i;
+   for(i = 0; *s[i] != '\0'; ++i)
+     printf("%d\n", i);
+     return(0);
 }
